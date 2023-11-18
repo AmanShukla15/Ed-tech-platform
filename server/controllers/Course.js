@@ -332,12 +332,7 @@ exports.getFullCourseDetails = async (req, res) => {
 			})
 		}
 
-		// if (courseDetails.status === "Draft") {
-		//   return res.status(403).json({
-		//     success: false,
-		//     message: `Accessing a draft course is forbidden`,
-		//   });
-		// }
+		
 
 		let totalDurationInSeconds = 0
 		courseDetails.courseContent.forEach((content) => {

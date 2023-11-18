@@ -11,9 +11,7 @@ const {
 } = require("../controllers/Profile")
 const { isDemo } = require("../middlewares/demo");
 
-// ********************************************************************************************************
-//                                      Profile routes
-// ********************************************************************************************************
+
 // Delet User Account
 router.delete("/deleteProfile",auth,isDemo,deleteAccount)
 router.put("/updateProfile", auth,isDemo, updateProfile)

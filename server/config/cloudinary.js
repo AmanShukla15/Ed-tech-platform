@@ -11,6 +11,6 @@ exports.cloudinaryconnect= ()=>{
 
         
     } catch (error) {
-        console.log("error connecting CD"+error)
+        console.log("error connecting CD "+error)
     }
 }

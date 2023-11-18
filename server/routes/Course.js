@@ -53,10 +53,6 @@ const { isDemo } = require("../middlewares/demo");
 // Importing Middlewares
 const { auth, isInstructor, isStudent, isAdmin } = require("../middlewares/auth")
 
-// ********************************************************************************************************
-//                                      Course routes
-// ********************************************************************************************************
-
 // Courses can Only be Created by Instructors
 router.post("/createCourse", auth, isInstructor,isDemo, createCourse)
 //Add a Section to a Course
