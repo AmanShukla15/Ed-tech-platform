@@ -4,8 +4,8 @@ import { setLoading, setToken } from "../../slices/authSlice"
 import { resetCart } from "../../slices/cartSlice"
 import { setUser } from "../../slices/profileSlice"
 import { endpoints } from "../apis"
-import {apiConnector} from "../apiConnector"
-import {setProgress} from "../../slices/loadingBarSlice"
+import { apiConnector } from "../apiConnector"
+import { setProgress } from "../../slices/loadingBarSlice"
 
 const {
   SENDOTP_API,
@@ -149,7 +149,7 @@ export function getPasswordResetToken(email, setEmailSent) {
   }
 }
 
-export function resetPassword(password, confirmPassword, token,setresetComplete) {
+export function resetPassword(password, confirmPassword, token, setresetComplete) {
   return async (dispatch) => {
     const toastId = toast.loading("Loading...")
     dispatch(setLoading(true))
@@ -190,7 +190,7 @@ export function logout(navigate) {
 }
 
 
-export function forgotPassword(email,setEmailSent) {
+export function forgotPassword(email, setEmailSent) {
   return async (dispatch) => {
     // const toastId = toast.loading("Loading...")
     dispatch(setLoading(true))

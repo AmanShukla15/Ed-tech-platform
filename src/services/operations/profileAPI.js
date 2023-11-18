@@ -5,8 +5,6 @@ import { toast } from "react-hot-toast";
 import {settingsEndpoints} from "../apis"
 import { logout } from "./authAPI.js";
 
-
-
 //getEnrolledCourses
 export async function getUserCourses(token,dispatch){
     // const toastId = toast.loading("Loading...");
@@ -66,10 +64,6 @@ export async function updatePfp(token,pfp){
   }
   toast.dismiss(toastId);
 }
-
-
-
-
 
 //updateAdditionalDetails
 export async function updateAdditionalDetails(token,additionalDetails){
