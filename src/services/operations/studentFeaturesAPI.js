@@ -22,7 +22,7 @@ function loadScript(src) {
 
 
 export async function buyCourse(token, courses, userDetails, navigate, dispatch) {
-    // console.log("buyCourse -> courses",process.env.REACT_APP_BASE_URL)
+   
     const toastId = toast.loading("Please wait while we redirect you to payment gateway", {
         position: "bottom-center",
         autoClose: false,

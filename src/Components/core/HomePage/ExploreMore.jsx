@@ -62,9 +62,7 @@ const ExploreMore = () => {
 
       </div>
 
-      {/* <div className='lg:h-[150px]'></div> */}
-
-      {/* course card ka group */}
+      
 
       <div className=' flex gap-9 w-full justify-center mt-5 flex-wrap lg:absolute right-0 left-0 mr-auto ml-auto'>
         {

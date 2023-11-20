@@ -54,9 +54,7 @@ export default function CoursesTable({ courses, setCourses }) {
             <Th className="flex-1 text-left text-sm font-medium uppercase text-richblack-100">
               Courses
             </Th>
-            {/* <Th className="text-left text-sm font-medium uppercase text-richblack-100">
-              Duration
-            </Th> */}
+            
             <Th className="text-left text-sm font-medium uppercase text-richblack-100">
               Price
             </Th>
@@ -70,7 +68,7 @@ export default function CoursesTable({ courses, setCourses }) {
             <Tr>
               <Td className="py-10 text-center text-2xl font-medium text-richblack-100">
                 No courses found
-                {/* TODO: Need to change this state */}
+               
               </Td>
             </Tr>
           ) : (

@@ -9,7 +9,7 @@ import { addCourseToCategory, editCourseDetails } from '../../../../services/ope
 import toast from 'react-hot-toast';
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
- 
+
 const PublishCourse = () => {
     const {register, handleSubmit, setValue, getValues, formState: {errors}} = useForm();
     const {token} = useSelector((state) => state.auth);
