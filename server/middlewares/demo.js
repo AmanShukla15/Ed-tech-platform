@@ -7,6 +7,5 @@ exports.isDemo = async (req, res, next)=> {
             message: "This is a Demo User", 
         });
     }
-    next();
+    next()
 }
-
